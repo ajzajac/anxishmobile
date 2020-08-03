@@ -2,20 +2,17 @@ import React from 'react';
 import {
   SafeAreaView, 
   StyleSheet,
-   ScrollView,
     View,
      Text} from 'react-native';
+import MainContainer from './containers/MainContainer';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
   return (
     <>
       <SafeAreaView style={styles.pageBackground}>
-          <View >
-            <Text style={styles.titleText}>anx-ish</Text>
+          <View>
+            <MainContainer />
           </View>
       </SafeAreaView>
     </>
@@ -33,7 +30,7 @@ const styles = StyleSheet.create({
     fontSize: 70,
     textAlign: 'center',
     marginTop: 300,
-  }
+  },
 });
 
 export default App;
