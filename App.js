@@ -2,8 +2,7 @@ import React from 'react';
 import {
   SafeAreaView, 
   StyleSheet,
-    View,
-     Text} from 'react-native';
+    View} from 'react-native';
 import MainContainer from './containers/MainContainer';
 
 
